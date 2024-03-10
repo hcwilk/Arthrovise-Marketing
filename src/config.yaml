@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Arthrovise
+  site: 'https://github.com/hcwilk/Arthrovise-Marketing'
   base: '/'
   trailingSlash: false
 
@@ -9,23 +9,20 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Arthrovise
+    template: '%s — Arthrovise'
+
+  description: '/** Arthrovise is a full stack remote monitoring platform for recovering patients and athletes**/'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Arthrovise
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/Arthrovise.png'
         width: 1200
         height: 628
     type: website
-  twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
 
 i18n:
   language: en
